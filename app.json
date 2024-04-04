@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.epiccoding.lab9"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +26,25 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-updates",
+        {
+          "username": "epiccoding"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3c609159-c831-4a4a-bcbc-8b7bb4a69cdb"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/3c609159-c831-4a4a-bcbc-8b7bb4a69cdb"
     }
   }
 }
